@@ -92,3 +92,42 @@ button{
     
 }
 
+@media (max-width: 375px) {
+    #content form{
+        height: 100%;
+     
+   width: 100%;
+    }
+
+    .result {
+        width: 310px;  
+        height: 150px;
+        margin: 20px 20sapx 20px 20px;
+        background-color: rgb(66, 73, 73 );
+        border: 1px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 53px;
+        font-weight: bold;
+        text-align: right;
+        cursor: pointer;
+        
+        
+    }
+    #content input[type=button], input[type=reset] {
+        width: 15%;
+        height: 10%;
+        font-weight: bold;
+        color: black;
+        border-radius: 300%;
+        padding: 7px;
+        border: 1px;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-size: large;
+        margin: 2px 0 7px 25px;
+        
+    
+        
+    }
+}
