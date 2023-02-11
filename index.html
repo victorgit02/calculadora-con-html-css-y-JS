@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="content">
+        <form name="calculator">
+            <input id ="resultado" type="textfield" value="" autocomplete="off" readonly class="result">
+
+            <input type="reset" value="C" class="grey">
+            <input type="button" value="+/-" class="grey">
+            <input type="button" value="%" class="grey">
+            <button type="button" onclick="resultado.value +=`/` " class="orange">÷</button>
+            <br>
+            <button type="button" onclick="resultado.value += '7'">7</button>
+            <button type="button" onclick="resultado.value += '8'">8</button>
+            <button type="button" onclick="resultado.value += '9'">9</button> 
+            <button type="button" onclick="resultado.value +=`+` " class="orange">+</button>
+            <br>
+            <button type="button" onclick="resultado.value += '4'">4</button>
+            <button type="button" onclick="resultado.value += '5'">5</button>
+            <button type="button" onclick="resultado.value += '6'">6</button>
+            <button type="button" onclick="resultado.value +=`-` " class="orange">-</button>
+            <br>
+            <button type="button" onclick="resultado.value += '1'">1</button>
+            <button type="button" onclick="resultado.value += '2'">2</button>
+            <button type="button" onclick="resultado.value += '3'">3</button>
+            <button type="button" onclick="resultado.value +=`*` " class="orange">*</button>
+            <br>
+            <button type="button" onclick="resultado.value += '0'" class="zero">0</button>
+            <button type="button" onclick="resultado.value += '.'">.</button>  
+           <button type="button" onclick="calcular()" class="orange">=</button>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
+
+
