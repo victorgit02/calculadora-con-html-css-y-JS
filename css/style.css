@@ -93,9 +93,10 @@ button {
 
 input[type="button"]:hover {
   background-color: grey;
+  border-radius: 300%;
 }
 .result {
-    width: 280px;
+    width: 260cd px;
     margin-right: 60px;
 }
 }
