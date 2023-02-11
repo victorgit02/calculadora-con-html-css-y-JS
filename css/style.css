@@ -1,133 +1,117 @@
-
 #content {
-    margin: 30px;
-    height: 520px;
-    width: 360px;
-    border: 1px;
-    border-radius: 16px;
-    background-color: rgb(0,0,0);
+  margin: 30px;
+  height: 520px;
+  width: 360px;
+  border: 1px;
+  border-radius: 16px;
+  background-color: rgb(0, 0, 0);
 }
-#content form{
-    height: 100%;
-    width: 100%;
-}
-
-#content input[type=button], input[type=reset] {
-    width: 15%;
-    height: 10%;
-    font-weight: bold;
-    color: black;
-    border-radius: 100%;
-    padding: 7px;
-    border: 1px;
-    cursor: pointer;
-    font-family: sans-serif;
-    font-size: large;
-    margin: 2px 0 7px 25px;
-    
-
-    
+#content form {
+  height: 100%;
+  width: 100%;
 }
 
-input[type=button]:hover{
-    background-color: grey;
+#content input[type="button"],
+input[type="reset"] {
+  width: 15%;
+  height: 10%;
+  font-weight: bold;
+  color: black;
+  border-radius: 100%;
+  padding: 7px;
+  border: 1px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: large;
+  margin: 2px 0 7px 25px;
 }
 
-button{
-    width: 15%;
-    height: 10%;
-    font-weight: bold;
-    color: black;
-    border-radius: 100%;
-    padding: 7px;
-    border: 1px;
-    cursor: pointer;
-    font-family: sans-serif;
-    font-size: large;
-    margin: 2px 0 7px 25px;
-    text-align: center;
+input[type="button"]:hover {
+  background-color: grey;
+}
+
+button {
+  width: 15%;
+  height: 10%;
+  font-weight: bold;
+  color: black;
+  border-radius: 100%;
+  padding: 7px;
+  border: 1px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: large;
+  margin: 2px 0 7px 25px;
+  text-align: center;
 }
 
 .result {
-    width: 310px;  
+  width: 310px;
+  height: 150px;
+  margin: 20px 0px 20px 20px;
+  background-color: rgb(66, 73, 73);
+  border: 1px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 53px;
+  font-weight: bold;
+  text-align: right;
+  cursor: pointer;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.grey:hover {
+  background-color: white;
+}
+.grey[type="button"]:hover {
+  background-color: white;
+}
+.orange {
+  background-color: orange;
+}
+
+.zero {
+  width: 134px !important;
+  border-radius: 20px !important;
+  text-align: left;
+  padding: 7px 7px 7px 20px;
+}
+
+@media (max-width: 600px) {
+  #content form {
+    height: 100%;
+
+    width: 100%;
+  }
+
+  .result {
+    width: 310px;
     height: 150px;
-    margin: 20px 0px 20px 20px;
-    background-color: rgb(66, 73, 73 );
+    margin: 20px 20px 20px 20px;
+    background-color: rgb(66, 73, 73);
     border: 1px;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 53px;
     font-weight: bold;
     text-align: right;
     cursor: pointer;
-    
-    
-}
-
- 
-.grey {
+  }
+  input[type="button"]:hover {
     background-color: grey;
-
-}
-
-.grey:hover{
-    background-color: white;
-}
-.grey[type=button]:hover{
-    background-color: white;
-
-}
-.orange {
-    background-color: orange;
-   
-}
-
-.zero {
-    
-    width: 134px !important;
-    border-radius: 20px !important;
-    text-align:left;
-    padding: 7px 7px 7px 20px;
-    
-    
-}
-
-@media (max-width: 600px) {
-    #content form{
-        height: 100%;
-     
-   width: 100%;
-    }
-
-    .result {
-        width: 310px;  
-        height: 150px;
-        margin: 20px 20sapx 20px 20px;
-        background-color: rgb(66, 73, 73 );
-        border: 1px;
-        color: white;
-        font-family: 'Roboto', sans-serif;
-        font-size: 53px;
-        font-weight: bold;
-        text-align: right;
-        cursor: pointer;
-        
-        
-    }
-    #content input[type=button], input[type=reset] {
-        width: 15%;
-        height: 10%;
-        font-weight: bold;
-        color: red;
-        border-radius: 300%;
-        padding: 7px;
-        border: 1px;
-        cursor: pointer;
-        font-family: sans-serif;
-        font-size: large;
-        margin: 2px 0 7px 25px;
-        
-    
-        
-    }
+    border-radius: 100%;
+    padding: 7px;
+    border: 1px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: large;
+    margin: 2px 0 7px 25px;
+  }
+  #content form {
+    height: 110%;
+    width: 100%;
+  }
 }
