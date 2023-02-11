@@ -81,37 +81,11 @@ button {
 }
 
 @media (max-width: 600px) {
+ 
+  
+  
   #content form {
-    height: 100%;
-
-    width: 100%;
-  }
-
-  .result {
-    width: 310px;
-    height: 150px;
-    margin: 20px 20px 20px 20px;
-    background-color: rgb(66, 73, 73);
-    border: 1px;
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 53px;
-    font-weight: bold;
-    text-align: right;
-    cursor: pointer;
-  }
-  input[type="button"]:hover {
-    background-color: grey;
-    border-radius: 100%;
-    padding: 7px;
-    border: 1px;
-    cursor: pointer;
-    font-family: sans-serif;
-    font-size: large;
-    margin: 2px 0 7px 25px;
-  }
-  #content form {
-    height: 110%;
+    height: 94%;
     width: 100%;
   }
 }
