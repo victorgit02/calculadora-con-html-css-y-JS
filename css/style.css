@@ -92,7 +92,7 @@ button{
     
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
     #content form{
         height: 100%;
      
